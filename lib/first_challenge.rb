@@ -14,7 +14,6 @@ def first_challenge
   }
 
   contacts.each do |person,data|
-    if person = "Freddy Mercury"
     data.each do |attribute,value|
       value.each do |flavour|
       if flavour == "strawberry"
@@ -22,8 +21,6 @@ def first_challenge
       end
       return contacts
     end
-  end
-    
   end
 end
 
