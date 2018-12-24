@@ -18,7 +18,7 @@ def first_challenge
       value.each do |flavour|
       flavour.delete_if == "strawberry"
         
-      end
+      
       return contacts
     end
   end
