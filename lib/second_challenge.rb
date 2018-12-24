@@ -8,6 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.values.keys
+  groceries.each do |keys, values|
+    puts values
 
 end
