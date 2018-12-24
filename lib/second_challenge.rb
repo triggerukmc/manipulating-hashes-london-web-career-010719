@@ -10,5 +10,5 @@ def second_challenge
 
   groceries.each do |keys, values|
     puts values
-
+end
 end
