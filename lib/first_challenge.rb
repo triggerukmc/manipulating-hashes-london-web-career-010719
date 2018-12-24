@@ -16,13 +16,10 @@ def first_challenge
   contacts.each do |person,data|
     data.each do |attribute,value|
       value.each do |flavour|
-      flavour.delete_if == "strawberry"
+      .delete_if == "strawberry"
     end
   end
 end
-
-        
-
 
   #remember to return your newly altered contacts hash!
   return contacts
